@@ -1,0 +1,100 @@
+body{
+  margin:0;
+  padding:0;
+
+  text-align: center;
+}
+.Increase{
+  color : red;
+}
+.Decrease{
+  color : blue;
+}
+
+.Quest{
+  font-size:17px;
+  transition-duration: 0.3s;
+}
+
+@keyframes delete_anim {
+  0%{
+    color:#FB0303;
+    font-size: 1px;
+  }
+  20%{
+    color : #081BF4;
+  }
+  60%{
+    color:#FB0303;
+  }
+  100%{
+    font-size:1000px;
+    color : #081BF4;
+  }
+}
+
+@keyframes ScoreGrow {
+  0%{
+    font-size: 17px;
+  }
+
+  50%{
+    font-size: 35px;
+  }
+
+  100%{
+    font-size: 17px;
+  }
+}
+
+.RainBox{
+  position:relative;
+  width:100%;
+  height:510px;
+  background-color:white;
+  overflow:hidden;
+  border-bottom: black solid 5px;
+}
+
+.Input{
+  position: relative;
+  top:10px;
+}
+.Check {
+  position: relative;
+  left: 3px;
+  top: 10px;
+}
+
+.Score,.ScorePoint{
+  position: relative;
+  top : 15px;
+}
+
+/*
+body{
+  text-align: center;
+}
+.RainBox{
+  position:relative;
+  width:800px;
+  height:600px;
+  background-color:white;
+}
+
+.Input{
+  position: relative;
+  top:510px;
+}
+.Check{
+  position: relative;
+  left: 3px;
+  top:510px;
+}
+.Line{
+  position: relative;
+  height: 5px;
+  top:500px;
+  background-color: red;
+}
+*/
